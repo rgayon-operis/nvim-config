@@ -8,6 +8,11 @@ M.ui = {
 	theme = "chadracula",
   transparency = true,
 
+  -- Make the statusline consistent with TMUX config.
+  statusline = {
+    separator_style = "arrow"
+  }
+
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },

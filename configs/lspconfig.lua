@@ -7,13 +7,14 @@ local lspconfig = require "lspconfig"
 local servers = {
   "html",
   "cssls",
-  "ansiblels",
   "bashls",
   "jsonls",
   "pyright",
   "gopls",
   "jinja_lsp",
-  "terraformls"
+  "terraformls",
+  "yamlls",
+  "ansiblels"
 }
 
 -- lsps with default config

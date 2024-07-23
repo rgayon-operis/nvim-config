@@ -21,8 +21,7 @@ return {
   	opts = {
   		ensure_installed = {
   			"lua-language-server", "stylua",
-  			"html-lsp", "css-lsp" , "prettier",
-        "ansiblels"
+  			"html-lsp", "css-lsp" , "prettier"
   	  },
     },
   },

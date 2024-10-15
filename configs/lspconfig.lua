@@ -14,7 +14,11 @@ local servers = {
   "jinja_lsp",
   "terraformls",
   "yamlls",
-  "ansiblels"
+  "ansiblels",
+  "powershell_es",
+  "markdown_oxide",
+  "rust_analyzer",
+  "denols"
 }
 
 -- lsps with default config
@@ -26,9 +30,13 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- typescript
-lspconfig.tsserver.setup {
-  on_attach = on_attach,
-  on_init = on_init,
-  capabilities = capabilities,
+lspconfig['powershell_es'].setup {
+  bundle_path = "/home/rgayon/.local/share/nvim/mason/packages/powershell-editor-services/"
 }
+
+-- -- typescript
+-- lspconfig.tsserver.setup {
+--   on_attach = on_attach,
+--   on_init = on_init,
+--   capabilities = capabilities,
+-- }

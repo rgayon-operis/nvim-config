@@ -18,7 +18,8 @@ local servers = {
   "powershell_es",
   "markdown_oxide",
   "rust_analyzer",
-  "denols"
+  "denols",
+  "sqlls"
 }
 
 -- lsps with default config

@@ -4,9 +4,12 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = {
-	theme = "catppuccin",
+M.base46 = {
+  theme = "catppuccin",
   transparency = true,
+}
+
+M.ui = {
 
   -- Make the statusline consistent with TMUX config.
   statusline = {

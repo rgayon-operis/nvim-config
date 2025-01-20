@@ -5,7 +5,7 @@
 local M = {}
 
 M.ui = {
-	theme = "chadracula",
+	theme = "catppuccin",
   transparency = true,
 
   -- Make the statusline consistent with TMUX config.

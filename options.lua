@@ -8,5 +8,7 @@ vim.filetype.add {
   },
 }
 
+require("todo-comments").setup()
+
 -- Configure snippet location
 vim.g.vscode_snippets_path = vim.fn.stdpath "config" .. "/lua/snippets"

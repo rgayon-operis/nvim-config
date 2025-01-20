@@ -7,3 +7,6 @@ vim.filetype.add {
     j2 = 'jinja',
   },
 }
+
+-- Configure snippet location
+vim.g.vscode_snippets_path = vim.fn.stdpath "config" .. "/lua/snippets"

@@ -1,0 +1,7 @@
+{
+  "Error Handling": {
+    "prefix": ["err"],
+    "body": ["if err != nil {}"],
+    "description": "Basic error handling."
+  }
+}

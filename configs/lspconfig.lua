@@ -6,6 +6,7 @@ local capabilities = require("nvchad.configs.lspconfig").capabilities
 local lspconfig = require "lspconfig"
 local servers = {
   "html",
+  "emmet_language_server",
   "cssls",
   "bashls",
   "jsonls",
@@ -19,7 +20,8 @@ local servers = {
   "markdown_oxide",
   "rust_analyzer",
   "denols",
-  "sqlls"
+  "sqlls",
+  "zls"
 }
 
 -- lsps with default config
